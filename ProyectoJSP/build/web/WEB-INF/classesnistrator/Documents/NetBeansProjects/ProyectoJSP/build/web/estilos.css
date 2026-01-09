@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(135deg, #0f172a, #020617);
+    font-family: "Segoe UI", Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.container {
+    width: 360px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 1px;
+}
+
+/* Tarjeta */
+form {
+    background: rgba(255,255,255,0.05);
+    padding: 28px;
+    border-radius: 14px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 25px rgba(0,0,0,0.6);
+    margin-bottom: 15px;
+}
+
+/* Inputs */
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    background: transparent;
+    border: 1px solid #334155;
+    border-radius: 8px;
+    color: white;
+    font-size: 14px;
+}
+
+input::placeholder {
+    color: #94a3b8;
+}
+
+select {
+    color: #cbd5f5;
+}
+
+/* Botón principal */
+.btn {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    background: linear-gradient(135deg, #38bdf8, #2563eb);
+    color: white;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(56,189,248,0.4);
+}
+
+/* Botón mostrar */
+.mostrar {
+    background: linear-gradient(135deg, #22d3ee, #0ea5e9);
+}
+
+.mostrar:hover {
+    box-shadow: 0 5px 15px rgba(34,211,238,0.4);
+}
+
+.tabla {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background: rgba(255,255,255,0.04);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.tabla th {
+    text-align: left;
+    padding: 14px;
+    background: rgba(56,189,248,0.15);
+    color: #7dd3fc;
+    font-weight: 600;
+}
+
+.tabla td {
+    padding: 14px;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+    color: #e5e7eb;
+}
+
+.tabla tr:hover {
+    background: rgba(255,255,255,0.03);
+}
+
+/* Botón volver */
+.volver {
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
